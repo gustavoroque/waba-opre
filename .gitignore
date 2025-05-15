@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Ambiente
+.env
+.env.*    # Para arquivos como .env.production
+
+# Sistema operacional
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Builds
+dist/
+build/
+out/
+
+# Testes
+coverage/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Sistema de cache
+.cache/
+.next/           # Para projetos com Next.js
+
+# Arquivos temporários
+*.swp
+*.tmp
